@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <nav>
+        <a href="https://github.com/cse110-sp26-group23/cse110-sp26-group23">Github Repository</a>
+    </nav>
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h1>Firing Bob</h1>
+                <h3>Seperation Meeting</h3>
+                <h3>April 8th, 2026</h3>
+            </header>
+            <hr />
+            <section>
+                <h3>Attendance</h3>
+                <ol>
+                    <li>Martin Fowler</li>
+                    <li>Andy Hunt</li>
+                    <li>Dave Thomas</li>
+                    <li>Brian Kernighan</li>
+                    <li>Tim O'Reilly</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Agenda</h3>
+                <ul>
+                    <li>Fire Bob</li>
+                    <li>Console Bob</li>
+                    <li>Hire a <span style="font-style: italic;">"replacement"</span> (LLM) for Bob</li>
+                    <li>
+                        <h5>Unfinished Business</h5>
+                        <ul>
+                            <li>Find a less meaningful name for this meeting</li>
+                            <li>Make all functions <span><strong>longer</strong></span></li>
+                            <li>Make all functions <span><strong>longer</strong></span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>New Business</h5>
+                        <ul>
+                            <li>Find an even less meaningful name for this meeting</li>
+                            <li>Remove all style guides</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>Meeting Comments</h3>
+                <div class="comment">
+                    <p><strong>O'Reilly:</strong> "Sorry Bob, we are going to have to let you go."</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Fowler:</strong> "Due to recent advances in AI, we have deemed 'Clean Code' to be
+                        impossible, and thus your work no longer is needed at this company."</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Hunt:</strong> "Don't worry too much, they are gonna get rid of all of us sooner or
+                        later."</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Kernighan:</strong> "Who reads these days anyway..."</p>
+                </div>
+            </section>
+            <section>
+                <h3>Diagram from Meeting</h3>
+                <img src="assets/BobExit.drawio.png" alt="Bob's exit diagram" width="400" height="300" />
+            </section>
+            <section>
+                <h3>Video from Meeting</h3>
+                <video width="400" height="300" controls>
+                    <source src="assets/BobExit.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <details>
+                    <summary>Video Information</summary>
+                    <p>This video clip is taken from the movie "Office Space" (1999)</p>
+                </details>
+
+                <h3>Audio from Meeting</h3>
+                <audio controls>
+                    <source src="assets/BobExitAudio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <details>
+                    <summary>Audio Information</summary>
+                    <p>This audio clip is taken from the movie "Office Space" (1999)</p>
+                </details>
+            </section>
+            <footer></footer>
+        </article>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <h3>Comment Section</h3>
+        <button>Load Comments</button>
+        <fieldset>
+            <legend>Write Comment</legend>
+            <div id="comments-container"></div>
+            <form>
+                <label for="mood">Mood</label>
+                <select id="mood" name="mood">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="angry">Angry</option>
+                </select>
+
+                <label for="topic">Topic</label>
+                <input list="topics" id="topic" name="topic" />
+                <datalist id="topics">
+                    <option value="Bob's firing"></option>
+                    <option value="Clean Code"></option>
+                    <option value="AI"></option>
+                </datalist>
+
+                <label for="comment"></label>
+                <textarea id="comment" name="comment"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+    </footer>
+</body>
+
+</html>
