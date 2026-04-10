@@ -3,9 +3,9 @@
 
 <head>
     <title>Meeting Minutes</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                 <h3>Seperation Meeting</h3>
                 <h3>April 8th, 2026</h3>
             </header>
-            <hr />
+            <hr>
             <section>
                 <h2>Attendance</h2>
                 <ol>
@@ -71,7 +71,7 @@
             </section>
             <section>
                 <h2>Diagram from Meeting</h2>
-                <img src="assets/BobExit.drawio.png" alt="Bob's exit diagram" width="400" height="300" />
+                <img src="assets/BobExit.drawio.png" alt="Bob's exit diagram" width="400" height="300">
             </section>
             <section>
                 <h2>Video from Meeting</h2>
@@ -107,22 +107,20 @@
             <div id="comments-container"></div>
             <form>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" />
+                <input type="text" id="name" name="name">
                 <br>
 
                 <label for="date">Date</label>
-                <input type="date" id="date" name="date" />
+                <input type="date" id="date" name="date">
                 <br>
 
-                <label>Enjoyed the meeting?
-                    <input type="radio" name="enjoyed" value="yes" /> Yes
-                    <input type="radio" name="enjoyed" value="no" /> No
-                </label>
+                <label for="enjoyed-yes">Enjoyed the meeting?</label>
+                <input type="radio" id="enjoyed-yes" name="enjoyed" value="yes"> Yes
+                <input type="radio" id="enjoyed-no" name="enjoyed" value="no"> No
                 <br>
 
-                <label>
-                    <input type="checkbox" name="anonymous" value="anonymous" /> Post anonymously
-                </label>
+                <label for="anonymous">Post anonymously</label>
+                <input type="checkbox" id="anonymous" name="anonymous" value="anonymous">
                 <br>
 
                 <label for="mood">Mood</label>
@@ -134,7 +132,7 @@
                 <br>
 
                 <label for="topic">Topic</label>
-                <input list="topics" id="topic" name="topic" />
+                <input list="topics" id="topic" name="topic">
                 <datalist id="topics">
                     <option value="Bob's firing"></option>
                     <option value="Clean Code"></option>
